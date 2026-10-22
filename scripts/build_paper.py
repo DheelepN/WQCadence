@@ -82,10 +82,10 @@ rms = {k: f"{k} [rms]" for k in (FX, AD, CO)}
 
 AUTHOR = "Dheelep Sai Gupthaa Nunna"   # family name: Nunna
 ADDRESS = ("Independent Researcher, 19-199, Gundla Puttur Street, Gate Puttur, Puttur, Chittoor District, "
-           "Andhra Pradesh [PIN code], India")
+           "Andhra Pradesh 517583, India")
 EMAIL = "dheelep.phd@gmail.com"
 ORCID = "0009-0006-9652-4387"
-ZENODO_DOI = "[Zenodo DOI]"
+ZENODO_DOI = "10.5281/zenodo.23568117"
 REPO_URL = "https://github.com/DheelepN/WQCadence"
 
 TITLE = ("Where adaptive sampling pays off in river water-quality surveillance: detection, "
