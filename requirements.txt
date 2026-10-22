@@ -1,0 +1,9 @@
+# Versions used to produce the results in the paper
+numpy==2.2.3
+pandas==2.2.3
+scipy==1.16.1
+scikit-learn==1.7.1
+matplotlib==3.10.1
+joblib==1.5.2
+pytest==8.4.2
+python-docx==1.2.0

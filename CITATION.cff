@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "aquasentinel: adaptive sampling, fault discrimination and source localization for river water-quality monitoring"
+version: 1.0.0
+date-released: 2026-10-22
+license: MIT
+type: software
+repository-code: "https://github.com/DheelepN/Aqua-sentinal"
+keywords:
+  - water-quality monitoring
+  - adaptive sampling
+  - event detection
+  - sensor fault detection
+  - contamination source identification
+authors:
+  - family-names: Nunna
+    given-names: Dheelep Sai Gupthaa
+    affiliation: "Independent Researcher, India"
+    orcid: "https://orcid.org/0009-0006-9652-4387"

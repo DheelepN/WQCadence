@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+data/raw/repo.zip
+results/summary_quick.json
+paper/

@@ -1,0 +1,41 @@
+policy,aggregate,deployment,event,duration_h,phase,detected,latency_min
+Fixed-30,mean,1,2024-10-07 23:15,3.75,0,False,
+Fixed-30,mean,1,2024-10-11 01:15,161.25,0,True,0.0
+Fixed-30,mean,1,2024-10-18 12:45,60.75,0,False,
+Fixed-30,mean,1,2024-10-21 08:15,9.25,0,False,
+Fixed-30,mean,1,2024-10-07 23:15,3.75,1,True,45.0
+Fixed-30,mean,1,2024-10-11 01:15,161.25,1,True,15.0
+Fixed-30,mean,1,2024-10-18 12:45,60.75,1,False,
+Fixed-30,mean,1,2024-10-21 08:15,9.25,1,False,
+Adaptive-30/15,mean,1,2024-10-07 23:15,3.75,0,False,
+Adaptive-30/15,mean,1,2024-10-11 01:15,161.25,0,True,0.0
+Adaptive-30/15,mean,1,2024-10-18 12:45,60.75,0,False,
+Adaptive-30/15,mean,1,2024-10-21 08:15,9.25,0,False,
+Adaptive-30/15,mean,1,2024-10-07 23:15,3.75,1,False,
+Adaptive-30/15,mean,1,2024-10-11 01:15,161.25,1,True,0.0
+Adaptive-30/15,mean,1,2024-10-18 12:45,60.75,1,False,
+Adaptive-30/15,mean,1,2024-10-21 08:15,9.25,1,False,
+Continuous-15,mean,1,2024-10-07 23:15,3.75,0,False,
+Continuous-15,mean,1,2024-10-11 01:15,161.25,0,True,0.0
+Continuous-15,mean,1,2024-10-18 12:45,60.75,0,False,
+Continuous-15,mean,1,2024-10-21 08:15,9.25,0,False,
+Fixed-30 [rms],rms,1,2024-10-07 23:15,3.75,0,True,0.0
+Fixed-30 [rms],rms,1,2024-10-11 01:15,161.25,0,True,0.0
+Fixed-30 [rms],rms,1,2024-10-18 12:45,60.75,0,False,
+Fixed-30 [rms],rms,1,2024-10-21 08:15,9.25,0,False,
+Fixed-30 [rms],rms,1,2024-10-07 23:15,3.75,1,True,15.0
+Fixed-30 [rms],rms,1,2024-10-11 01:15,161.25,1,True,15.0
+Fixed-30 [rms],rms,1,2024-10-18 12:45,60.75,1,False,
+Fixed-30 [rms],rms,1,2024-10-21 08:15,9.25,1,False,
+Adaptive-30/15 [rms],rms,1,2024-10-07 23:15,3.75,0,True,0.0
+Adaptive-30/15 [rms],rms,1,2024-10-11 01:15,161.25,0,True,0.0
+Adaptive-30/15 [rms],rms,1,2024-10-18 12:45,60.75,0,False,
+Adaptive-30/15 [rms],rms,1,2024-10-21 08:15,9.25,0,False,
+Adaptive-30/15 [rms],rms,1,2024-10-07 23:15,3.75,1,True,0.0
+Adaptive-30/15 [rms],rms,1,2024-10-11 01:15,161.25,1,True,0.0
+Adaptive-30/15 [rms],rms,1,2024-10-18 12:45,60.75,1,False,
+Adaptive-30/15 [rms],rms,1,2024-10-21 08:15,9.25,1,False,
+Continuous-15 [rms],rms,1,2024-10-07 23:15,3.75,0,True,0.0
+Continuous-15 [rms],rms,1,2024-10-11 01:15,161.25,0,True,0.0
+Continuous-15 [rms],rms,1,2024-10-18 12:45,60.75,0,False,
+Continuous-15 [rms],rms,1,2024-10-21 08:15,9.25,0,False,
