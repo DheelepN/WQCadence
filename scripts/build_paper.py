@@ -19,7 +19,7 @@ from docx.shared import Cm, Pt, RGBColor
 
 ROOT = Path(__file__).resolve().parents[1]
 S = json.loads((ROOT / "results" / "summary.json").read_text())
-OUT = ROOT / "paper" / "AquaSentinel_manuscript.docx"
+OUT = ROOT / "paper" / "WQCadence_manuscript.docx"
 
 P1, P2, P3, DATA, CAL = S["pillar1"], S["pillar2"], S["pillar3"], S["data"], S["detector_calibration"]
 R, TESTS = P1["recall"], P1["tests"]
@@ -86,7 +86,7 @@ ADDRESS = ("Independent Researcher, 19-199, Gundla Puttur Street, Gate Puttur, P
 EMAIL = "dheelep.phd@gmail.com"
 ORCID = "0009-0006-9652-4387"
 ZENODO_DOI = "[Zenodo DOI]"
-REPO_URL = "https://github.com/DheelepN/Aqua-sentinal"
+REPO_URL = "https://github.com/DheelepN/WQCadence"
 
 TITLE = ("Where adaptive sampling pays off in river water-quality surveillance: detection, "
          "fault discrimination and source localization in a reproducible benchmark")
@@ -794,7 +794,7 @@ para(
 # -------------------------------------------------------------- back matter --
 h1("Software and data availability")
 for k, v in [
-    ("Name of software", "aquasentinel (v1.0.0)"),
+    ("Name of software", "WQCadence (v1.0.0); Python package wqcadence"),
     ("Developer and contact", f"{AUTHOR} ({EMAIL})"),
     ("Year first available", "2026"),
     ("Hardware required", "Any computer able to run Python; full pipeline ≈10 min on an 8-core laptop"),
@@ -856,7 +856,7 @@ REFS = [
     "https://doi.org/10.1016/j.scitotenv.2019.02.085",
     "McNemar, Q., 1947. Note on the sampling error of the difference between correlated proportions or percentages. "
     "Psychometrika 12 (2), 153–157. https://doi.org/10.1007/BF02295996",
-    f"[dataset] Nunna, D.S.G., 2026. aquasentinel v1.0.0: code, data and experiment outputs for adaptive "
+    f"[dataset] Nunna, D.S.G., 2026. WQCadence v1.0.0: code, data and experiment outputs for adaptive "
     f"sampling, fault discrimination and source localization in river water-quality monitoring. Zenodo. "
     f"https://doi.org/{ZENODO_DOI}",
         "Ostfeld, A., Uber, J.G., Salomons, E., Berry, J.W., Hart, W.E., Phillips, C.A., et al., 2008. The battle of the "

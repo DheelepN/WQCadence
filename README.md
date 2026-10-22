@@ -1,4 +1,4 @@
-# AquaSentinel — reproducibility bundle
+# WQCadence — reproducibility bundle
 
 Code, data provenance, tests, results and manuscript for:
 
@@ -14,7 +14,7 @@ paper is typed in by hand: `scripts/build_paper.py` reads `results/summary.json`
 | Path | Contents |
 |---|---|
 | `data/raw/` | Source files from the Cronin et al. (2025) repository (MIT licence), unmodified |
-| `src/aquasentinel/` | The framework: data loading, detector, sampling policies, injection, features, transport model, statistics, and the three experiments |
+| `src/wqcadence/` | The framework: data loading, detector, sampling policies, injection, features, transport model, statistics, and the three experiments |
 | `tests/` | `pytest` suite (unit tests + small end-to-end runs) |
 | `scripts/run_experiments.py` | Runs all experiments → `results/` |
 | `scripts/make_figures.py` | Builds all figures → `figures/` (PNG + PDF) |

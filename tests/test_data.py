@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-from aquasentinel.data import event_runs, model_matrix, quiet_mask, to_model_space
+from wqcadence.data import event_runs, model_matrix, quiet_mask, to_model_space
 
 
 def test_record_counts_match_source_cleaned_files(data):

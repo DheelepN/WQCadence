@@ -19,10 +19,10 @@ import pandas as pd  # noqa: E402
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from aquasentinel import pillar1 as p1  # noqa: E402
-from aquasentinel.data import event_runs, load_owenmore, model_matrix, quiet_mask  # noqa: E402
-from aquasentinel.injection import inject_event, robust_sd  # noqa: E402
-from aquasentinel.policies import run_policy  # noqa: E402
+from wqcadence import pillar1 as p1  # noqa: E402
+from wqcadence.data import event_runs, load_owenmore, model_matrix, quiet_mask  # noqa: E402
+from wqcadence.injection import inject_event, robust_sd  # noqa: E402
+from wqcadence.policies import run_policy  # noqa: E402
 
 RES, FIG = ROOT / "results", ROOT / "figures"
 

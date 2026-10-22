@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 
-from aquasentinel.detector import SD_FLOOR, Z_CLIP, GapAwareEWMA, score
+from wqcadence.detector import SD_FLOOR, Z_CLIP, GapAwareEWMA, score
 
 
 def test_first_update_returns_zero_and_initialises():

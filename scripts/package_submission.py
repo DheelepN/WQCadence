@@ -20,7 +20,7 @@ def main():
         shutil.rmtree(OUT)
     OUT.mkdir(parents=True)
     copies = {
-        ROOT / "paper" / "AquaSentinel_manuscript.docx": "Manuscript.docx",
+        ROOT / "paper" / "WQCadence_manuscript.docx": "Manuscript.docx",
         ROOT / "paper" / "highlights.docx": "Highlights.docx",
         ROOT / "paper" / "cover_letter.md": "Cover_letter.txt",
         ROOT / "figures" / "graphical_abstract.pdf": "Graphical_abstract.pdf",

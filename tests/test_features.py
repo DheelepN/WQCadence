@@ -1,7 +1,7 @@
 import numpy as np
 
-from aquasentinel.features import DECISION_STEPS, F4_NAMES, F6_NAMES, features_f4, features_f6
-from aquasentinel.injection import SIGNATURES
+from wqcadence.features import DECISION_STEPS, F4_NAMES, F6_NAMES, features_f4, features_f6
+from wqcadence.injection import SIGNATURES
 
 rng = np.random.default_rng(0)
 B = np.tile([10.0, 400.0, 6.0, 1.0], (20, 1)) + rng.normal(0, [0.1, 3, 0.03, 0.05], (20, 4))

@@ -9,5 +9,5 @@ sys.path.insert(0, str(ROOT / "src"))
 
 @pytest.fixture(scope="session")
 def data():
-    from aquasentinel.data import load_owenmore
+    from wqcadence.data import load_owenmore
     return load_owenmore(ROOT / "data" / "raw")

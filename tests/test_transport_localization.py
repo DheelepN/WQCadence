@@ -1,8 +1,8 @@
 import numpy as np
 import pytest
 
-from aquasentinel import pillar3 as p3
-from aquasentinel.transport import AREA, concentration
+from wqcadence import pillar3 as p3
+from wqcadence.transport import AREA, concentration
 
 
 def test_zero_before_release():

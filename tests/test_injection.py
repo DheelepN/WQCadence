@@ -1,8 +1,8 @@
 import numpy as np
 import pytest
 
-from aquasentinel.detector import SD_FLOOR
-from aquasentinel.injection import (FAULT_TYPES, SEVERITY, SHAPES, SIGNATURES, draw_event, inject_event,
+from wqcadence.detector import SD_FLOOR
+from wqcadence.injection import (FAULT_TYPES, SEVERITY, SHAPES, SIGNATURES, draw_event, inject_event,
                                     inject_fault, profile, robust_sd)
 
 BASE = np.tile([10.0, 400.0, 6.0, 1.0], (100, 1))

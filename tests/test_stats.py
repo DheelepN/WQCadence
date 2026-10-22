@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 
-from aquasentinel.stats import bootstrap_ci, holm, mcnemar_exact, wilcoxon_paired, wilson
+from wqcadence.stats import bootstrap_ci, holm, mcnemar_exact, wilcoxon_paired, wilson
 
 
 def test_mcnemar_exact_known_value():

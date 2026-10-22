@@ -1,7 +1,7 @@
 import numpy as np
 
-from aquasentinel.detector import SD_FLOOR
-from aquasentinel.policies import ADAPTIVE, CONTINUOUS, FIXED_30, alarm_episodes, fixed, run_policy
+from wqcadence.detector import SD_FLOOR
+from wqcadence.policies import ADAPTIVE, CONTINUOUS, FIXED_30, alarm_episodes, fixed, run_policy
 
 FLAT = np.tile([10.0, 400.0, 6.0, 1.0], (200, 1))
 
@@ -57,7 +57,7 @@ def test_alarm_episodes():
 
 
 def test_stale_alarm_is_not_credited_as_detection():
-    from aquasentinel.pillar1 import _detect
+    from wqcadence.pillar1 import _detect
     X = bump(FLAT, 100, 5.0)                      # false alarm at 100, held until 102
     run = run_policy(X, FIXED_30)
     assert run.alarm[101]

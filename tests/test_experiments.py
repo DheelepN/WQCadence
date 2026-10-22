@@ -3,9 +3,9 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from aquasentinel import pillar1 as p1
-from aquasentinel import pillar2 as p2
-from aquasentinel.data import quiet_mask
+from wqcadence import pillar1 as p1
+from wqcadence import pillar2 as p2
+from wqcadence.data import quiet_mask
 
 pytestmark = pytest.mark.slow
 

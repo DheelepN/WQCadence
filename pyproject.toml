@@ -1,5 +1,5 @@
 [project]
-name = "aquasentinel"
+name = "wqcadence"
 version = "1.0.0"
 description = "Adaptive sampling, fault-aware discrimination and source localization for river water-quality surveillance"
 requires-python = ">=3.10"

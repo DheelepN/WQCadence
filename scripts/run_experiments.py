@@ -21,13 +21,13 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from aquasentinel import __version__  # noqa: E402
-from aquasentinel import pillar1 as p1  # noqa: E402
-from aquasentinel import pillar2 as p2  # noqa: E402
-from aquasentinel import pillar3 as p3  # noqa: E402
-from aquasentinel.data import event_runs, load_owenmore, quiet_mask  # noqa: E402
-from aquasentinel.injection import SEVERITY  # noqa: E402
-from aquasentinel.stats import bootstrap_ci, holm, mcnemar_exact, wilcoxon_paired, wilson  # noqa: E402
+from wqcadence import __version__  # noqa: E402
+from wqcadence import pillar1 as p1  # noqa: E402
+from wqcadence import pillar2 as p2  # noqa: E402
+from wqcadence import pillar3 as p3  # noqa: E402
+from wqcadence.data import event_runs, load_owenmore, quiet_mask  # noqa: E402
+from wqcadence.injection import SEVERITY  # noqa: E402
+from wqcadence.stats import bootstrap_ci, holm, mcnemar_exact, wilcoxon_paired, wilson  # noqa: E402
 
 SEEDS = {"pillar1": 20260811, "pillar1_tau": 20260814, "pillar2": 20260812, "pillar3": 20260813,
          "pillar3_stations": 20260815}
@@ -86,7 +86,7 @@ def paired_policy_tests(df: pd.DataFrame, a: str, b: str) -> dict:
 def detector_calibration(seed: int = 7) -> dict:
     """E[z^2] and P(|z|>3) on stationary Gaussian noise, by sampling gap, for
     the detector used here and for the naive incremental EW variance."""
-    from aquasentinel.detector import GapAwareEWMA
+    from wqcadence.detector import GapAwareEWMA
     out = {}
     for gap in (1, 2, 4, 8):
         x = np.random.default_rng(seed + gap).normal(0, 1, (40_000, 4))
