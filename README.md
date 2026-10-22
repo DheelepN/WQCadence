@@ -1,5 +1,7 @@
 # WQCadence — reproducibility bundle
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23568117.svg)](https://doi.org/10.5281/zenodo.23568117)
+
 Code, data provenance, tests, results and manuscript for:
 
 > *Adaptive sampling, fault-aware anomaly discrimination and multi-station source
